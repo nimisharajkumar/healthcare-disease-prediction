@@ -1,0 +1,10 @@
+column,type,description,role
+age,Numeric,Age in years in synthetic record,Predictor
+bmi,Numeric,Body mass index value,Predictor
+glucose,Numeric,Synthetic glucose measurement,Predictor
+diastolic_blood_pressure,Numeric,Synthetic diastolic blood pressure measurement,Predictor
+insulin,Numeric,Synthetic insulin measurement,Predictor
+pregnancies,Numeric,Synthetic pregnancy count,Predictor
+family_history,Binary,"Simulated family-history indicator: 1 yes, 0 no",Predictor
+physical_activity,Categorical,Synthetic physical activity category,Predictor
+diabetes_outcome,Binary,"Simulated outcome: 1 positive, 0 negative",Target
